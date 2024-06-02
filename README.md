@@ -12,8 +12,8 @@
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [Shepherd JS](#shepherd)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Runnig Application](#running-application)
 - [Acknowledgement](#)
@@ -108,13 +108,13 @@ https://github.com/SauravKumarMahato/FunFlag/assets/83631265/032b587e-80c5-4ece-
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/SauravKumarMahato/FunFlag.git
+git clone https://github.com/SauravKumarMahato/Shepherd-FunFlag.git
 ```
 
 2. Navigate to the cloned directory:
 
 ```bash
-cd FunFlag/frontend/funflag
+cd Shepherd-FunFlag/frontend/funflag
 ```
 
 3. Install the required dependencies:

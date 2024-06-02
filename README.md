@@ -86,12 +86,12 @@ Refer to Shepherd [Documentation](https://docs.shepherdpro.com/guides/install/) 
 
 ## Demo
 <!-- demo link -->
-- Demo video using shepherd
+### Demo video using shepherd
 
 https://github.com/SauravKumarMahato/Shepherd-FunFlag/assets/83631265/e18b0db2-a1f5-486e-b8ad-188a74afa80a
 
-
-- Demo video without shepherd
+---
+### Demo video without shepherd
 
 https://github.com/SauravKumarMahato/FunFlag/assets/83631265/032b587e-80c5-4ece-8205-d1fa76b8e8ae
 

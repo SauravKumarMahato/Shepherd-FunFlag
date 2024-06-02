@@ -40,10 +40,27 @@ Shepherd enables you to guide users through a custom tour or journey within your
 
 Shepherd is available in many frameworks as below:
 
-1. [angular-shepherd](https://github.com/shepherd-pro/angular-shepherd)
-2. [ember-shepherd](https://github.com/shepherd-pro/ember-shepherd)
-3. [react-shepherd](https://github.com/shepherd-pro/react-shepherd)
-4. [vue-shepherd](https://github.com/shepherd-pro/vue-shepherd)
+- [angular-shepherd](https://github.com/shepherd-pro/angular-shepherd)
+- [ember-shepherd](https://github.com/shepherd-pro/ember-shepherd)
+- [react-shepherd](https://github.com/shepherd-pro/react-shepherd)
+- [vue-shepherd](https://github.com/shepherd-pro/vue-shepherd)
+
+
+### Shepherd Usuages in this project 
+
+- **Multipage Navigation using Shepherd JS**
+    - Tour continuation after page navigation
+- **Progress Bar**
+    - showing progress in Shepherd Tour
+- **Custom classes** 
+    - overriding default classes
+
+- **Various Other Usages**
+  - Scrolling down to an element and continuing guide
+  - Using `beforeShowPromise` property for asynchronous tasks before showing a step
+  - Show/hide tour based on user visits (e.g., first-time visitor vs returning users)
+
+
 
 ### ShepherdJS Tour Options
 

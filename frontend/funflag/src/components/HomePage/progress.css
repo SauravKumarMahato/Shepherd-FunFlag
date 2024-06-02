@@ -1,0 +1,78 @@
+.shepherd-progress-bar {
+  position: absolute;
+  left: 2%;
+  bottom: 9%;
+  font-size: 14px;
+  border-radius: 9px;
+  height: 20px;
+  width: 100%;
+  max-width: 180px;
+  padding: 3px;
+  background: #e6e6e6;
+}
+.shepherd-progress-bar span {
+  display: block;
+  background: #06bcea;
+  width: 50%;
+  height: 100%;
+  border-radius: 9px;
+}
+
+.shepherd-footer {
+  align-items: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.75rem 0.75rem;
+  font-family: "Marker Felt", fantasy;
+  margin: 4px;
+
+
+  .shepherd-button:last-child {
+    margin-right: 0;
+  }
+
+  .shepherd-progress {
+    font-size: 0.8rem;
+  }
+}
+
+.shepherd-header {
+  /* font-size: 2rem; */
+  font-family: "Marker Felt", fantasy;
+}
+
+.shepherd-content > .shepherd-text {
+  font-size: 1.4rem;
+  line-height: 1.3em;
+  padding: 0.75em;
+  font-family: "Quikhand", sans-serif;
+}
+
+button.shepherd-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  background-color: #16a34a; /* Tailwind's green-600 */
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-family: "DM Sans", sans-serif; /* Replace with correct font if different */
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  box-shadow: 0 25px 50px -12px rgba(34, 197, 94, 0.75); /* Combined shadow */
+  transition: transform 200ms ease-in-out;
+}
+
+button.shepherd-button:hover {
+  transform: scale(1.05);
+}
+
+
+div.shepherd-has-cancel-icon {
+  margin-bottom: 10px ;
+}

@@ -88,7 +88,7 @@ Refer to Shepherd [Documentation](https://docs.shepherdpro.com/guides/install/) 
 <!-- demo link -->
 ### Demo video using shepherd
 
-https://github.com/SauravKumarMahato/Shepherd-FunFlag/assets/83631265/e18b0db2-a1f5-486e-b8ad-188a74afa80a
+https://github.com/SauravKumarMahato/Shepherd-FunFlag/assets/83631265/13286997-5b40-4833-9d6d-0f756928e4eb
 
 ---
 ### Demo video without shepherd

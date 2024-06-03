@@ -27,26 +27,9 @@ const AIFun = () => {
 
     async function run() {
         // For text-only input, use the gemini-pro model
-        // const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+        const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
-        // const prompt = 'Related to field ' + value + ' generate me 10 question and answers in below format  ' + JSON.stringify([
-        //     {
-        //         id: 1,
-        //         question: "What is the capital of France?",
-        //         options: ["Paris", "London", "Berlin", "Rome"],
-        //         answer: "Paris"
-        //     },
-        //     {
-        //         id: 2,
-        //         question: "Who wrote the play 'Hamlet'?",
-        //         options: ["William Shakespeare", "Jane Austen", "Charles Dickens", "Leo Tolstoy"],
-        //         answer: "William Shakespeare"
-        //     }
-        // ]);
-        // const result = await model.generateContent(prompt);
-        // const response = await result.response;
-        // const text = response.text();
-       const  text = [
+        const prompt = 'Related to field ' + value + ' generate me 10 question and answers in below format  ' + JSON.stringify([
             {
                 id: 1,
                 question: "What is the capital of France?",
@@ -59,8 +42,11 @@ const AIFun = () => {
                 options: ["William Shakespeare", "Jane Austen", "Charles Dickens", "Leo Tolstoy"],
                 answer: "William Shakespeare"
             }
-        ]
-        setQuestions(JSON.parse(JSON.stringify(text)));
+        ]);
+        const result = await model.generateContent(prompt);
+        const response = await result.response;
+        const text = response.text();
+        setQuestions(JSON.parse(text));
         setCurrentQuestionIndex(0);
         console.log("questions are", value, questions);
     }

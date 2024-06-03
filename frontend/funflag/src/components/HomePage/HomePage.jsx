@@ -45,9 +45,48 @@ const HomePage = () => {
   });
 
   tour.addStep({
+    id: "0",
+    title: "Tour Guide : Step Zero",
+    text: `<div class="flex">
+    <img id="tour-rabbit-image" src="${"/welcome.gif"}" alt="Rabbit" class="tour-image w-32 h-32"/>
+    <div>
+        <h3 class="font-bold underline">Welcome to FunFlag! I am your tour guide.</h3>
+        <p class="">Let me guide you through this project</p>
+    </div>
+</div>`,
+    scrollTo: {
+      behavior: "smooth",
+      block: "center",
+    },
+    attachTo: {
+      element: ".font-bold",
+      on: "right",
+    },
+    cancelIcon: {
+      enabled: true,
+    },
+    classes: "border m-4",
+    buttons: [
+      {
+        text: "Exit",
+        action: tour.cancel,
+      },
+      {
+        text: "Next",
+        action: tour.next,
+      },
+    ],
+  });
+
+  tour.addStep({
     id: "1",
     title: "Tour Guide : Step One",
-    text: "Please read the following to learn about the features included in this project.",
+    text: `<div class="flex">
+    <img id="tour-rabbit-image" src="${"/welcome.gif"}" alt="Rabbit" class="tour-image w-32 h-32"/>
+    <div>
+        <p class="">Please read the following to learn about the features included in this project.</p>
+    </div>
+</div>`,
     scrollTo: {
       behavior: "smooth",
       block: "center",
@@ -75,7 +114,12 @@ const HomePage = () => {
   tour.addStep({
     id: "2",
     title: "Tour Guide : Step Two",
-    text: "Footer section for additional links",
+    text: `<div class="flex">
+    <img id="tour-rabbit-image" src="${"/welcome.gif"}" alt="Rabbit" class="tour-image w-32 h-32"/>
+    <div>
+        <p class="">Footer section for additional links</p>
+    </div>
+</div>`,
     scrollTo: {
       behavior: "smooth",
       block: "center",
@@ -103,7 +147,12 @@ const HomePage = () => {
   tour.addStep({
     id: "3",
     title: "Tour Guide : Step Three",
-    text: "Connect with Developer",
+    text: `<div class="flex">
+    <img id="tour-rabbit-image" src="${"/welcome.gif"}" alt="Rabbit" class="tour-image w-32 h-32"/>
+    <div>
+        <p class="">Connect with Developer</p>
+    </div>
+</div>`,
     scrollTo: {
       behavior: "smooth",
       block: "center",
@@ -131,7 +180,12 @@ const HomePage = () => {
   tour.addStep({
     id: "4",
     title: "Tour Guide : Step four",
-    text: "Navigate to Magic Memory Game Section",
+    text: `<div class="flex">
+    <img id="tour-rabbit-image" src="${"/welcome.gif"}" alt="Rabbit" class="tour-image w-32 h-32"/>
+    <div>
+        <p class="">Navigate to Magic Memory Game Section</p>
+    </div>
+</div>`,
     scrollTo: {
       behavior: "smooth",
       block: "center",
@@ -159,7 +213,12 @@ const HomePage = () => {
   tour.addStep({
     id: "5",
     title: "Tour Guide : Step Five",
-    text: "Magic Memory Game involves laying all the cards face down in a grid. The player flips over two cards at a time, trying to find matching pairs. If a match is found, the player moves on to find other matching cards. If no match is found, the cards are turned back over, and the player tries again. The game continues until all pairs are matched.",
+    text: `<div class="flex">
+    <img id="tour-rabbit-image" src="${"/game_guide.gif"}" alt="Rabbit" class="tour-image w-32 h-32"/>
+    <div>
+        <p class="">Magic Memory Game involves laying all the cards face down in a grid. The player flips over two cards at a time, trying to find matching pairs. If a match is found, the player moves on to find other matching cards. If no match is found, the cards are turned back over, and the player tries again. The game continues until all pairs are matched.",</p>
+    </div>
+</div>`,
     scrollTo: {
       behavior: "smooth",
       block: "center",
@@ -198,7 +257,12 @@ const HomePage = () => {
   tour.addStep({
     id: "6",
     title: "Tour Guide : Step Six",
-    text: "Restart Game clicking this button",
+    text: `<div class="flex">
+    <img id="tour-rabbit-image" src="${"/welcome.gif"}" alt="Rabbit" class="tour-image w-32 h-32"/>
+    <div>
+        <p class="">Restart Game clicking this button</p>
+    </div>
+</div>`,
     scrollTo: {
       behavior: "smooth",
       block: "center",
@@ -226,7 +290,12 @@ const HomePage = () => {
   tour.addStep({
     id: "7",
     title: "Tour Guide : Step Seven",
-    text: "Navigate to AI Fun Q/A Section",
+    text: `<div class="flex">
+    <img id="tour-rabbit-image" src="${"/welcome.gif"}" alt="Rabbit" class="tour-image w-32 h-32"/>
+    <div>
+        <p class="">Navigate to AI Fun Q/A Section</p>
+    </div>
+</div>`,
     scrollTo: {
       behavior: "smooth",
       block: "center",
@@ -254,7 +323,12 @@ const HomePage = () => {
   tour.addStep({
     id: "8",
     title: "Tour Guide : Step Eight",
-    text: "Give input any field to get questions from and then answer the questions to finally get the score.",
+    text: `<div class="flex">
+    <img id="tour-rabbit-image" src="${"/welcome.gif"}" alt="Rabbit" class="tour-image w-32 h-32"/>
+    <div>
+        <p class="">Give input any field to get questions from and then answer the questions to finally get the score.</p>
+    </div>
+</div>`,
     scrollTo: {
       behavior: "smooth",
       block: "center",
@@ -293,7 +367,12 @@ const HomePage = () => {
   tour.addStep({
     id: "9",
     title: "Tour Guide : Step Nine",
-    text: "Answer this questions to get the final score ",
+    text: `<div class="flex">
+    <img id="tour-rabbit-image" src="${"/welcome.gif"}" alt="Rabbit" class="tour-image w-32 h-32"/>
+    <div>
+        <p class="">Answer this questions to get the final score</p>
+    </div>
+</div>`,
     scrollTo: {
       behavior: "smooth",
       block: "center",
@@ -328,7 +407,12 @@ const HomePage = () => {
   tour.addStep({
     id: "10",
     title: "Tour Guide : Step Ten",
-    text: "Now you are all ready to do it your way....",
+    text: `<div class="flex">
+    <img id="tour-rabbit-image" src="${"/final.gif"}" alt="Rabbit" class="tour-image w-32 h-32"/>
+    <div>
+        <p class="">Now you are all ready to do it your way....</p>
+    </div>
+</div>`,
     scrollTo: {
       behavior: "smooth",
       block: "center",
